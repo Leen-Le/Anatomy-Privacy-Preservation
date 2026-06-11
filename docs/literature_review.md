@@ -132,3 +132,23 @@ Examples include:
 The table stores the Group ID and the sensitive values belonging to each group.
 
 Direct links between individuals and sensitive values are removed.
+
+## Advantages of Anatomy
+
+The Anatomy method provides several advantages over traditional generalization techniques.
+
+First, it preserves the original attribute values instead of replacing them with generalized ranges.
+
+Second, it reduces information loss and improves data utility.
+
+Third, it enables more accurate analytical queries while still protecting sensitive information.
+
+As a result, Anatomy achieves a better balance between privacy and data usefulness.
+
+## Summary
+
+Traditional anonymization techniques protect privacy by modifying data values. However, these modifications often reduce data quality and analytical usefulness.
+
+The Anatomy method addresses this issue by separating quasi-identifiers from sensitive attributes into two independent tables linked through a Group ID.
+
+This approach preserves more information while maintaining privacy protection.
