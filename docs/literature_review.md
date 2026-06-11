@@ -91,3 +91,44 @@ contains more information than:
 Age = 20-30
 
 The goal of privacy-preserving data publishing is to minimize information loss while maintaining privacy.
+
+## Anatomy Method
+
+Anatomy is a privacy-preserving data publishing technique proposed as an alternative to traditional generalization methods.
+
+Instead of modifying or generalizing attribute values, Anatomy separates the dataset into two independent tables:
+
+* Quasi-Identifier Table (QIT)
+* Sensitive Table (ST)
+
+The original values are preserved, which reduces information loss and improves data utility.
+
+The connection between the two tables is maintained through a Group ID.
+
+## Quasi-Identifier Table (QIT)
+
+The Quasi-Identifier Table contains attributes that may indirectly identify individuals.
+
+Examples include:
+
+* Age
+* Gender
+* Zip Code
+
+Each record is associated with a Group ID.
+
+The table does not contain sensitive information.
+
+## Sensitive Table (ST)
+
+The Sensitive Table contains sensitive attribute values.
+
+Examples include:
+
+* Disease
+* Salary
+* Medical Condition
+
+The table stores the Group ID and the sensitive values belonging to each group.
+
+Direct links between individuals and sensitive values are removed.
