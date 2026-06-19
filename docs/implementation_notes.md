@@ -62,3 +62,16 @@ The initial exploration included:
 * Identifying the sensitive attribute
 
 This step helped prepare the dataset for the implementation of the Anatomy algorithm.
+
+# Data Preparation Results
+
+The original Adult Dataset was processed to create a simplified version suitable for the Anatomy implementation.
+
+Only four attributes were retained:
+
+* Age
+* Education
+* Sex
+* Target
+
+The resulting dataset will be used to generate the Quasi-Identifier Table (QIT) and the Sensitive Table (ST) in the next phase of the project.
