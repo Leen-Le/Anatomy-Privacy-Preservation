@@ -65,3 +65,30 @@ A graphical analysis of the Income attribute was generated.
 The visualization helps identify the distribution of sensitive values within the dataset and supports the evaluation of the Anatomy method.
 
 Charts improve the interpretability of the results and facilitate comparison between groups.
+
+# Conclusion
+
+This project studied and implemented the Anatomy privacy-preserving technique using the Adult Dataset.
+
+The implementation separated quasi-identifiers and sensitive attributes into two independent tables:
+
+* Quasi-Identifier Table (QIT)
+* Sensitive Table (ST)
+
+The results demonstrated that Anatomy can protect sensitive information while preserving the original attribute values.
+
+Compared to traditional generalization methods, Anatomy reduces information loss and improves data utility.
+
+Overall, the Anatomy method provides an effective balance between privacy protection and analytical usefulness.
+
+# Future Work
+
+Several improvements can be made in future versions of this project.
+
+Possible extensions include:
+
+* Implementing full l-diversity constraints.
+* Comparing Anatomy with k-anonymity.
+* Comparing Anatomy with slicing techniques.
+* Evaluating performance on larger datasets.
+* Applying additional privacy-preserving techniques.

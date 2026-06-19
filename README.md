@@ -1,23 +1,51 @@
 # Anatomy: Simple and Effective Privacy Preservation
 
-## Overview
+## Project Overview
 
-This project is based on the paper:
+This project implements a simplified version of the Anatomy privacy-preserving data publishing technique.
 
-"Anatomy: Simple and Effective Privacy Preservation"
-(Xiaokui Xiao, Yufei Tao)
+The implementation is based on the research paper:
 
-The project aims to implement the Anatomy technique for privacy-preserving data publishing and compare it with traditional anonymization methods.
+**Anatomy: Simple and Effective Privacy Preservation**
+by Xiaokui Xiao and Yufei Tao.
+
+## Objectives
+
+* Understand the Anatomy method.
+* Protect sensitive information.
+* Preserve data utility.
+* Reduce information loss.
+
+## Dataset
+
+Adult Census Dataset
+
+Selected Quasi Identifiers:
+
+* Age
+* Education
+* Sex
+
+Selected Sensitive Attribute:
+
+* Income
 
 ## Project Structure
 
-* data/ : datasets
-* docs/ : notes and summaries
-* src/ : source code
-* results/ : experiment outputs
-* images/ : figures and diagrams
-* paper/ : original research paper
+* data/
+* docs/
+* src/
+* results/
+* images/
+* paper/
+
+## Outputs
+
+* QIT.csv
+* ST.csv
+* Statistical analysis
+* Visualizations
 
 ## Status
 
-Day 1: Project setup and paper review.
+Project completed successfully.
