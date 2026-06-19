@@ -75,3 +75,23 @@ Only four attributes were retained:
 * Target
 
 The resulting dataset will be used to generate the Quasi-Identifier Table (QIT) and the Sensitive Table (ST) in the next phase of the project.
+
+# QIT and ST Generation
+
+The simplified dataset was divided into two independent tables.
+
+The Quasi-Identifier Table (QIT) contains:
+
+* Age
+* Education
+* Sex
+* Group ID
+
+The Sensitive Table (ST) contains:
+
+* Group ID
+* Income (Target)
+
+The Group ID acts as a link between the two tables while preventing direct association between individuals and sensitive values.
+
+This structure represents the core idea of the Anatomy method.
