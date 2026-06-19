@@ -19,3 +19,12 @@ qit.to_csv("../results/QIT.csv", index=False)
 st.to_csv("../results/ST.csv", index=False)
 
 print("QIT and ST tables created successfully!")
+
+print("\nQIT Preview:")
+print(qit.head())
+
+print("\nST Preview:")
+print(st.head())
+
+print("\nNumber of Records:", len(df))
+print("Number of Groups:", df["Group_ID"].nunique())
