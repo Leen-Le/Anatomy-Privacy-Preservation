@@ -34,3 +34,34 @@ In contrast, Anatomy preserves the original attribute values while separating se
 This approach improves analytical usefulness and reduces information loss.
 
 The implementation confirms that privacy protection can be achieved without excessive data modification.
+
+# Performance Analysis
+
+The Anatomy implementation successfully separated quasi-identifiers from sensitive attributes.
+
+The generated tables preserve the original values while reducing the risk of direct disclosure.
+
+The use of Group IDs allows the relationship between records to be maintained without exposing sensitive information.
+
+The resulting dataset structure improves privacy protection while preserving analytical usefulness.
+
+# Dataset Statistics
+
+Basic statistical analysis was performed on the simplified Adult Dataset.
+
+The analysis included:
+
+* Number of records
+* Income distribution
+* Gender distribution
+* Education distribution
+
+These statistics provide a better understanding of the dataset before and after applying the Anatomy structure.
+
+# Visualization
+
+A graphical analysis of the Income attribute was generated.
+
+The visualization helps identify the distribution of sensitive values within the dataset and supports the evaluation of the Anatomy method.
+
+Charts improve the interpretability of the results and facilitate comparison between groups.
